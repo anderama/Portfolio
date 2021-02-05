@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400&display=swap');
+
+:root {
+    --ciano: #358597;
+    --coral: #F4A896;
+    --branco: #F2F9FA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2d3436;
+    color: var(--branco);
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 200;
+    letter-spacing: 3px;
+    color: var(--coral);
+}
+
+nav>ul>li {
+    padding-right: 70px;
+    padding-left: 50px;
+    text-align: center;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--coral);
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    opacity: 0.8;
+}
+
+.nav a:hover {
+    opacity: 1;
+}
+
+.image-main img {
+    width: 100vw;
+    height: 70vh;
+}
+
+.nav {
+    height: 5rem;
+    width: 100vw;
+    background-color: var(--ciano);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perfil img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 6px solid var(--coral);
+}
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -180px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-top: 14px;
+    font-size: 2rem;
+}
+
+.logo-p {
+    font-size: 1rem;
+}
+
