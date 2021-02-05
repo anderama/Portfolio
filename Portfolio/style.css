@@ -21,7 +21,7 @@ body {
     height: 100vh;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Bebas Neue', cursive;
     font-weight: 200;
     letter-spacing: 3px;
@@ -47,7 +47,7 @@ a {
     text-decoration: none;
     color: var(--coral);
     font-weight: 800;
-    font-size: 1.2rem;
+    font-size: 1rem;
     letter-spacing: 4px;
 }
 
@@ -57,6 +57,10 @@ p {
     align-items: center;
     text-align: left;
     margin-right: 200px;
+}
+
+article {
+    padding-top: 60px;
 }
 
 .nav a:hover {
@@ -178,4 +182,97 @@ p {
 .fa-users {
     color: var(--coral);
     margin-right: 30px;
+}
+
+.features img {
+    margin-top: 40px;
+    width: 500px;
+    height: 250px;
+}
+
+.features {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0 100px;
+}
+
+.last-container {
+    background-color: var(--ciano);
+    padding: 100px;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.icon-text {
+    margin-left: 190px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icons {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.icons:hover {
+    color: var(--branco);
+}
+
+#footer {
+    background-color: var(--coral);
+    width: 100vw;
+    height: 100%;
+}
+
+.container-footer {
+    padding: 40px;
+    width: 100vw;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-footer ul li {
+    text-decoration: none;
+    list-style-type: none;
+    color: var(--ciano);
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+
+.inner {
+    margin-top: 40px;
+}
+
+.inner-text {
+    font-size: 1.3rem;
+}
+
+.profile-icons {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: var(--coral);
+}
+
+.profile-icons:hover {
+    color: var(--ciano);
 }
