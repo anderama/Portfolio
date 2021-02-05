@@ -4,6 +4,7 @@
     --ciano: #358597;
     --coral: #F4A896;
     --branco: #F2F9FA;
+    --rose: #e66767;
 }
 
 * {
@@ -16,6 +17,8 @@ body {
     background-color: #2d3436;
     color: var(--branco);
     font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1, h2, h3 {
@@ -23,6 +26,14 @@ h1, h2, h3 {
     font-weight: 200;
     letter-spacing: 3px;
     color: var(--coral);
+}
+
+h2 {
+    margin-left: 3px;
+}
+
+h3 {
+    font-size: 2.5rem;
 }
 
 nav>ul>li {
@@ -36,13 +47,20 @@ a {
     text-decoration: none;
     color: var(--coral);
     font-weight: 800;
-    font-size: 1rem;
+    font-size: 1.2rem;
     letter-spacing: 4px;
-    opacity: 0.8;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-right: 200px;
 }
 
 .nav a:hover {
-    opacity: 1;
+    color: var(--rose);
 }
 
 .image-main img {
@@ -73,7 +91,6 @@ a {
     flex-direction: column;
     text-align: center;
     margin-top: -180px;
-    margin-bottom: 20px;
 }
 
 .logo {
@@ -83,5 +100,82 @@ a {
 
 .logo-p {
     font-size: 1rem;
+    text-align: center;
+    margin: 0;
 }
 
+#wrapper {
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.major {
+    font-size: 2.25rem;
+    padding-bottom: 30px;
+}
+
+.first-title {
+    text-align: left;
+}
+
+#two {
+    background-color: var(--ciano);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 70px;
+}
+
+.container {
+    padding: 100px;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.feature-icons {
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.fa-code {
+    color: var(--coral);
+    margin-right: 30px;
+}
+
+.fa-cubes {
+    color: var(--coral);
+    margin-right: 30px;
+}
+
+.fa-book-open {
+    color: var(--coral);
+    margin-right: 30px;
+}
+
+.fa-mug-hot {
+    color: var(--coral);
+    margin-right: 30px;
+}
+
+.fa-bolt {
+    color: var(--coral);
+    margin-right: 30px;
+}
+
+.fa-users {
+    color: var(--coral);
+    margin-right: 30px;
+}
