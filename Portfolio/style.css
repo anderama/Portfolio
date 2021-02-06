@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Poppins:wght@100;300;400;700&display=swap');
 
 :root {
-    --ciano: #358597;
-    --coral: #F4A896;
-    --branco: #F2F9FA;
+    --blue: #243665;
+    --megaman: #3dc1d3;
+    --turquoise: #8BD8BD;
+    --white: #F2F5FA;
     --rose: #e66767;
+    --black: #2d3436;
 }
 
 * {
@@ -14,18 +16,18 @@
 }
 
 body {
-    background-color: #2d3436;
-    color: var(--branco);
-    font-family: 'Montserrat', sans-serif;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Poppins', sans-serif;
     width: 100vw;
     height: 100vh;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     letter-spacing: 3px;
-    color: var(--coral);
+    color: var(--turquoise);
 }
 
 h2 {
@@ -45,7 +47,7 @@ nav>ul>li {
 
 a {
     text-decoration: none;
-    color: var(--coral);
+    color: var(--turquoise);
     font-weight: 800;
     font-size: 1rem;
     letter-spacing: 4px;
@@ -55,16 +57,25 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
-    margin-right: 200px;
+    text-align: justify;
+    width: 900px;
 }
 
-article {
+.first-project {
     padding-top: 60px;
 }
 
+.second-project {
+    padding-top: 80px;
+    margin-right: 30px;
+}
+
+.skill-text {
+    justify-content: left;
+}
+
 .nav a:hover {
-    color: var(--rose);
+    color: var(--megaman);
 }
 
 .image-main img {
@@ -75,7 +86,7 @@ article {
 .nav {
     height: 5rem;
     width: 100vw;
-    background-color: var(--ciano);
+    background-color: var(--blue);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +96,7 @@ article {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    border: 6px solid var(--coral);
+    border: 6px solid var(--turquoise);
 }
 
 .perfil {
@@ -126,10 +137,10 @@ article {
 }
 
 #two {
-    background-color: var(--ciano);
+    background-color: var(--blue);
     margin-top: 50px;
     margin-bottom: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 180px;
 }
 
 .container {
@@ -155,37 +166,42 @@ article {
 }
 
 .fa-code {
-    color: var(--coral);
+    color: var(--turquoise);
     margin-right: 30px;
 }
 
 .fa-cubes {
-    color: var(--coral);
+    color: var(--turquoise);
     margin-right: 30px;
 }
 
 .fa-book-open {
-    color: var(--coral);
+    color: var(--turquoise);
     margin-right: 30px;
 }
 
 .fa-mug-hot {
-    color: var(--coral);
+    color: var(--turquoise);
     margin-right: 30px;
 }
 
 .fa-bolt {
-    color: var(--coral);
+    color: var(--turquoise);
     margin-right: 30px;
 }
 
 .fa-users {
-    color: var(--coral);
+    color: var(--turquoise);
     margin-right: 30px;
 }
 
+#three {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 180px;
+}
+
 .features img {
-    margin-top: 40px;
     width: 500px;
     height: 250px;
 }
@@ -195,11 +211,10 @@ article {
     justify-content: center;
     align-items: center;
     flex-direction: row-reverse;
-    margin: 0 100px;
 }
 
 .last-container {
-    background-color: var(--ciano);
+    background-color: var(--blue);
     padding: 100px;
     width: 100vw;
     height: 700px;
@@ -211,7 +226,6 @@ article {
 }
 
 .icon-text {
-    margin-left: 190px;
     margin-top: 20px;
     font-size: 18px;
     font-weight: 400;
@@ -220,16 +234,23 @@ article {
 .icons {
     list-style-type: none;
     text-decoration: none;
-    padding: 15px;
-    font-size: 16px;
+    margin: 10px;
+    padding: 4px;
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    
 }
 
 .icons:hover {
-    color: var(--branco);
+    color: var(--turquoise);
 }
 
 #footer {
-    background-color: var(--coral);
+    background-color: var(--turquoise);
     width: 100vw;
     height: 100%;
 }
@@ -246,7 +267,7 @@ article {
 .container-footer ul li {
     text-decoration: none;
     list-style-type: none;
-    color: var(--ciano);
+    color: var(--blue);
     font-weight: 800;
     font-size: 1rem;
     letter-spacing: 2px;
@@ -258,6 +279,13 @@ article {
 
 .inner-text {
     font-size: 1.3rem;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.project-text {
+    margin-right: 50px;
+    width: 500px;
 }
 
 .profile-icons {
@@ -270,9 +298,9 @@ article {
     font-size: 30px;
     padding-right: 15px;
     padding-left: 15px;
-    color: var(--coral);
+    color: var(--turquoise);
 }
 
 .profile-icons:hover {
-    color: var(--ciano);
+    color: var(--megaman);
 }
