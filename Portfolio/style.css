@@ -19,8 +19,8 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-family: 'Poppins', sans-serif;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 
 h1, h2, h3, h4 {
@@ -58,38 +58,13 @@ p {
     justify-content: center;
     align-items: center;
     text-align: justify;
-    width: 900px;
+    width: 840px;
 }
 
-.first-project {
-    padding-top: 60px;
-}
-
-.second-project {
-    padding-top: 80px;
-    margin-right: 30px;
-}
-
-.skill-text {
-    justify-content: left;
-}
-
-.nav a:hover {
-    color: var(--megaman);
-}
-
+/* ----- Header -----*/
 .image-main img {
-    width: 100vw;
+    width: 100%;
     height: 70vh;
-}
-
-.nav {
-    height: 5rem;
-    width: 100vw;
-    background-color: var(--blue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .perfil img {
@@ -119,11 +94,52 @@ p {
     margin: 0;
 }
 
+.nav {
+    height: 5rem;
+    width: 100%;
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a:hover {
+    color: var(--megaman);
+}
+
+.profile-icons {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    font-size: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: var(--turquoise);
+}
+
+.profile-icons:hover {
+    color: var(--megaman);
+}
+
+/* ----- Sobre mim ----- */
 #wrapper {
     margin: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    padding: 100px;
+    width: 99vw;
+    height: 700px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -136,21 +152,55 @@ p {
     text-align: left;
 }
 
-#two {
-    background-color: var(--blue);
+/* ----- Projetos ----- */
+#three {
     margin-top: 50px;
     margin-bottom: 50px;
     padding-bottom: 180px;
 }
 
-.container {
-    padding: 100px;
-    width: 100vw;
-    height: 700px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
+.features img {
+    width: 500px;
+    height: 250px;
+}
+
+.features {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.first-project {
+    padding-top: 60px;
+}
+
+.second-project {
+    padding-top: 80px;
+    margin-right: 30px;
+}
+
+.inner {
+    margin-top: 40px;
+}
+
+.inner-text {
+    font-size: 1.3rem;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.project-text {
+    margin-right: 100px;
+    width: 500px;
+}
+
+/* ----- Skills e Hobbies -----*/
+#two {
+    background-color: var(--blue);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 180px;
 }
 
 .feature-icons {
@@ -159,10 +209,6 @@ p {
     margin-top: 70px;
     margin-bottom: 40px;
     font-size: 18px;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .fa-code {
@@ -195,28 +241,15 @@ p {
     margin-right: 30px;
 }
 
-#three {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-bottom: 180px;
+.skill-text {
+    justify-content: left;
 }
 
-.features img {
-    width: 500px;
-    height: 250px;
-}
-
-.features {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row-reverse;
-}
-
+/* ----- Entre em contato -----*/
 .last-container {
     background-color: var(--blue);
     padding: 100px;
-    width: 100vw;
+    width: 99vw;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -242,22 +275,22 @@ p {
     justify-content: center;
     align-items: center;
     color: var(--white);
-    
 }
 
 .icons:hover {
     color: var(--turquoise);
 }
 
+/* ----- Footer -----*/
 #footer {
     background-color: var(--turquoise);
-    width: 100vw;
+    width: 99vw;
     height: 100%;
 }
 
 .container-footer {
     padding: 40px;
-    width: 100vw;
+    width: 99vw;
     height: 10px;
     display: flex;
     justify-content: center;
@@ -271,36 +304,4 @@ p {
     font-weight: 800;
     font-size: 1rem;
     letter-spacing: 2px;
-}
-
-.inner {
-    margin-top: 40px;
-}
-
-.inner-text {
-    font-size: 1.3rem;
-    width: 500px;
-    margin-bottom: 30px;
-}
-
-.project-text {
-    margin-right: 50px;
-    width: 500px;
-}
-
-.profile-icons {
-    text-decoration: none;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
-    font-size: 30px;
-    padding-right: 15px;
-    padding-left: 15px;
-    color: var(--turquoise);
-}
-
-.profile-icons:hover {
-    color: var(--megaman);
 }
