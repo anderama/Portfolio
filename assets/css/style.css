@@ -660,19 +660,151 @@ header {
   }
 }
 
-.hobbies {
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
 .hobbies svg {
-  width: 900px;
+  width: 70px;
+  height: 70px;
 }
 
 @media screen and (max-width: 960px) {
   .hobbies svg {
     width: 100%;
   }
+}
+
+.hobbies {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 960px) {
+  .hobbies {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .hobbies svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.hobby-items1 {
+  width: 405.05px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .hobby-items1 {
+    width: 345px;
+  }
+}
+
+.hobby-items2 {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 960px) {
+  .hobby-items2 {
+    width: 345px;
+  }
+}
+
+.box-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tag {
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.hobby-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  color: #2D3436;
+}
+
+@media screen and (max-width: 960px) {
+  .hobby-text {
+    font-size: 12px;
+  }
+}
+
+.box-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cubes {
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.box-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.coffee {
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.book {
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.bolt {
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.team {
+  margin-right: 20px;
+  margin-bottom: 16px;
 }
 
 header {
