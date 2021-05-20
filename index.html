@@ -5,9 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/svg" sizes="32x32" href="./svg/icon.svg">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <script src="./assets/JS/svg-inject.min.js"></script>
     <title>Anderson Ramalho</title>
+    <script src="js/svg-inject.min.js"></script>
 </head>
 <body>
     <!--------------HEADER-------------->
@@ -18,7 +19,6 @@
             <div class="logo">
                 <a href=""><img src="svg/logo.svg" alt="" onload="SVGInject(this)"></a>
             </div>
-            <a href="" style="z-index: 800;">Login</a>
         </nav>
 
         <!--------------Navbar Desktop-------------->
@@ -32,14 +32,32 @@
             </div>
             <div class="navbar-desktop-item-2">
                 <ul class="menu-desktop">
-                    <li class="menu-item"><a href="">Sobre mim</a></li>
-                    <li class="menu-item"><a href="">Skills</a></li>
-                    <li class="menu-item"><a href="">Projetos</a></li>
-                    <li class="menu-item"><a class="btn" href="">Contato</a></li>
+                    <li class="menu-item"><a class="navlink-desktop mr-2" href="">Sobre mim</a></li>
+                    <li class="menu-item"><a class="navlink-desktop mr-2" href="">Skills</a></li>
+                    <li class="menu-item"><a class="navlink-desktop mr-2" href="">Projetos</a></li>
+                    <li class="menu-item"><a class="btn navlink-desktop mr-2" href="">Contato</a></li>
                 </ul>
             </div>
         </nav>
+
+        <!--------------Menu Mobile-------------->
+        <nav class="menu-mobile" id="menu-mobile">
+            <nav class="nav-list-mobile">
+                <li class="mb-1"><a href="" class="nav-link-mobile">Sobre mim</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Skills</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Projetos</a></li>
+                <li class="mb-1"><a href="" class="nav-link-mobile">Contato</a></li>
+                <li class="mt-3 flex-center">
+                    <a class="mr-4" href=""><img src="svg/git.svg" alt="" onload="SVGInject(this)"></a>
+                    <a class="mr-4" href=""><img src="svg/in.svg" alt="" onload="SVGInject(this)"></a>
+                    <a class="mr-4" href=""><img src="svg/insta.svg" alt="" onload="SVGInject(this)"></a>
+                </li>
+            </nav>
+        </nav>
     </header>
+
+    <!--------------HERO-------------->
+    
 
     <!--------------JS-------------->
     <script src="js/app.js"></script>

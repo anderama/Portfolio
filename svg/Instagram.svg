@@ -1,0 +1,17 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Instagram">
+<rect id="Rectangle 883" x="10" y="10" width="100" height="100" rx="32.3077" fill="#F2F7FF"/>
+<path id="Vector" d="M76.0712 27.8572H43.9284C35.0524 27.8572 27.8569 35.0526 27.8569 43.9286V76.0715C27.8569 84.9475 35.0524 92.1429 43.9284 92.1429H76.0712C84.9472 92.1429 92.1426 84.9475 92.1426 76.0715V43.9286C92.1426 35.0526 84.9472 27.8572 76.0712 27.8572Z" stroke="url(#paint0_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M72.8575 57.9751C73.2541 60.6502 72.7972 63.3823 71.5517 65.7827C70.3061 68.1831 68.3354 70.1297 65.9198 71.3455C63.5042 72.5613 60.7667 72.9845 58.0968 72.5549C55.4268 72.1253 52.9603 70.8647 51.048 68.9524C49.1358 67.0402 47.8752 64.5737 47.4455 61.9037C47.0159 59.2337 47.4391 56.4962 48.6549 54.0806C49.8708 51.665 51.8173 49.6943 54.2178 48.4488C56.6182 47.2032 59.3502 46.7463 62.0253 47.143C64.754 47.5476 67.2802 48.8191 69.2308 50.7697C71.1813 52.7203 72.4528 55.2465 72.8575 57.9751Z" stroke="url(#paint1_linear)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="59.9998" y1="27.8572" x2="59.9998" y2="92.1429" gradientUnits="userSpaceOnUse">
+<stop stop-color="#538BF0"/>
+<stop offset="1" stop-color="#0C2759"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="60.1394" y1="47.0039" x2="60.1394" y2="72.7182" gradientUnits="userSpaceOnUse">
+<stop stop-color="#538BF0"/>
+<stop offset="1" stop-color="#0C2759"/>
+</linearGradient>
+</defs>
+</svg>
