@@ -4,144 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg" sizes="32x32" href="./assets/img/icon.png">
+    <link rel="icon" type="image/svg" sizes="32x32" href="./svg/icon.svg">
     <link rel="stylesheet" href="./assets/css/style.css">
     <script src="./assets/JS/svg-inject.min.js"></script>
     <title>Anderson Ramalho</title>
 </head>
 <body>
-    <!-------------  HEADER --------------->
+    <!--------------HEADER-------------->
+    <header id="header">
+        <!--------------Navbar Mobile-------------->
+        <nav class="navbar-mobile">
+            <div class="bx" id="bx"></div>
+            <div class="logo">
+                <a href=""><img src="svg/logo.svg" alt="" onload="SVGInject(this)"></a>
+            </div>
+            <a href="" style="z-index: 800;">Login</a>
+        </nav>
 
-    <header>
-        <nav class="navbar">
-            <div class="nav-menu">
+        <!--------------Navbar Desktop-------------->
+        <nav class="navbar-desktop">
+            <div class="navbar-desktop-item-1">
                 <div class="logo">
-                    <img src="./assets/img/logo.svg" onload="SVGInject(this)"/>
+                    <a href="">
+                        <img src="svg/logo.svg" alt="" onload="SVGInject(this)">
+                    </a>
                 </div>
             </div>
-                <div>                 
-                    <ul class="nav-list">
-                        <li><a href="#" class="nav-link">Sobre mim</a></li>
-                        <li><a href="#" class="nav-link">Skills</a></li>
-                        <li><a href="#" class="nav-link">Projetos</a></li>
-                        <li><a href=""><button class="nav-link contact">Contact</button></a></li>
-                    </ul>
-                </div>
+            <div class="navbar-desktop-item-2">
+                <ul class="menu-desktop">
+                    <li class="menu-item"><a href="">Sobre mim</a></li>
+                    <li class="menu-item"><a href="">Skills</a></li>
+                    <li class="menu-item"><a href="">Projetos</a></li>
+                    <li class="menu-item"><a class="btn" href="">Contato</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <!-------------  CONTAINER  --------------->
-    <section class="container">
-        <div class="container-items">
-            <div class="container-item1 js-tilt">
-                <img src="./assets/img/rocket.svg" onload="SVGInject(this)"/>
-            </div>
-            <div class="container-item2">
-                <div class="avatar">
-                    <img src="./assets/img/avatar.svg" onload="SVGInject(this)"/>
-                </div>
-                <div class="intro">
-                    <img src="./assets/img/intro.svg" onload="SVGInject(this)"/>
-                </div>
-            </div>
-        </div>
-        <div class="saiba-mais">
-            <div class="saiba-mais-text">
-                <img src="./assets/img/Saiba Mais.svg" onload="SVGInject(this)"/>
-            </div>
-            <div class="btn-saiba-mais">
-                <a href=""><img src="./assets/img/btn-saibamais.svg" onload="SVGInject(this)"/></a>
-            </div>
-        </div>
-        <div class="purple-bar"></div>
-    </section>
-
-    <!-------------  About me  --------------->
-    <section class="about-me">
-        <div class="about-me-svg">
-            <img src="./assets/img/AboutMe.svg" onload="SVGInject(this)"/>
-        </div>
-        <div class="abm-text">
-            <h1>
-                Me chamo Anderson Ramalho, graduando em Análise e Desenvolvimento de Sistemas
-            </h1>
-            <p>
-                Tenho 22 anos e tenho como objetivo atualmente, conseguir um estágio como desenvolvedor, que me possibilite condições 
-                favoráveis de desenvolvimento pessoal e profissional, onde eu seja capaz de aprimorar meus conhecimentos e habilidades. 
-                Me comunico fácil e fluentemente. Posso ser considerado um comunicador. Sou confiante, gregário, aberto e dou valor ao contato 
-                com pessoas e o desenvolvimento de relações positivas. Carreira em evolução na área de Análise e Desenvolvimento de Sistemas, 
-                tendo como foco a área de Front-End.
-            </p>
-        </div>
-        <div class="divider">
-            <img src="./assets/img/divider.svg" onload="SVGInject(this)"/>
-        </div>
-        <div class="hobbies">
-            <div class="hobby-items1">
-                <div class="box-1">
-                    <div class="tag">
-                        <img src="./assets/img/tag.svg" onload="SVGInject(this)"/>
-                    </div>
-                    <div class="hobby-text">
-                        <p>Amo codar em HTML, CSS e JS.</p>
-                    </div>
-                </div>
-                <div class="box-2">
-                    <div class="cubes">
-                        <img src="./assets/img/cubes.svg" onload="SVGInject(this)"/>
-                    </div>
-                    <div class="hobby-text">
-                        <p>Sou organizado.</p>
-                    </div>
-                </div>
-                <div class="box-3">
-                    <div class="coffee">
-                        <img src="./assets/img/coffee.svg" onload="SVGInject(this)"/>
-                    </div>
-                    <div class="hobby-text">
-                        <p>Café é minha bebida favorita.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="hobby-items2">
-                <div class="box-1">
-                    <div class="book">
-                        <img src="./assets/img/book.svg" onload="SVGInject(this)"/>
-                    </div>
-                    <div class="hobby-text">
-                        <p>Gosto muito de ler.</p>
-                    </div>
-                </div>
-                <div class="box-2">
-                    <div class="bolt">
-                        <img src="./assets/img/bolt.svg" onload="SVGInject(this)"/>
-                    </div>
-                    <div class="hobby-text">
-                        <p>Sou criativo, proativo e energético.</p>
-                    </div>
-                </div>
-                <div class="box-3">
-                    <div class="team">
-                        <img src="./assets/img/team.svg" onload="SVGInject(this)"/>
-                    </div>
-                    <div class="hobby-text">
-                        <p>Gosto de trabalhar em equipe e</br> conhecer novas pessoas.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="divider">
-            <img src="./assets/img/divider.svg" onload="SVGInject(this)"/>
-        </div>
-    </section>
-        
-    <!-------------  JS  --------------->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
-    <script>
-        const tilt = $('.js-tilt').tilt()
-        tilt.on('change', function(e, transforms){});
-    </script>
-
+    <!--------------JS-------------->
+    <script src="js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>
