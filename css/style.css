@@ -814,7 +814,7 @@ header {
           transform: rotate(-135deg);
   width: 70%;
   height: 2px;
-  background-color: #0C2759;
+  background-color: #5FB8FC;
 }
 
 .active-bx::before {
@@ -826,13 +826,13 @@ header {
           transform: rotate(315deg);
   width: 70%;
   height: 2px;
-  background-color: #0C2759;
+  background-color: #7BE4FE;
 }
 
 .menu-mobile {
   width: 100vw;
   height: 110vh;
-  background-color: #F2F7FF;
+  background-color: #0C2759;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -873,13 +873,13 @@ header {
 }
 
 .nav-list-mobile svg path {
-  stroke: #767576;
+  stroke: #FEFBFF;
   -webkit-transition: .7s ease;
   transition: .7s ease;
 }
 
 .nav-list-mobile svg:hover path {
-  stroke: #0C2759;
+  stroke: #7BE4FE;
 }
 
 .nav-link-mobile {
@@ -887,7 +887,7 @@ header {
   font-family: 'Sora', sans-serif;
   font-size: 3.6rem;
   line-height: 120%;
-  color: #555456;
+  color: #FEFBFF;
   padding: 16px 24px;
   position: relative;
 }
@@ -900,12 +900,12 @@ header {
   -webkit-transition: 1s ease;
   transition: 1s ease;
   width: 0;
-  height: 3px;
-  background-color: #0C2759;
+  height: 2px;
+  background-color: #7BE4FE;
 }
 
 .nav-link-mobile:hover {
-  color: #0C2759;
+  color: #7BE4FE;
 }
 
 .nav-link-mobile:hover::after {

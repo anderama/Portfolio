@@ -148,7 +148,7 @@ header {
 
         width: 70%;
         height: 2px;
-        background-color: $darker-blue;
+        background-color: $medium-blue-2;
     }
     
     &::before {
@@ -162,7 +162,7 @@ header {
 
         width: 70%;
         height: 2px;
-        background-color: $darker-blue;
+        background-color: $lighter-blue-2;
     }
 }
 
@@ -170,7 +170,7 @@ header {
     width: 100vw;
     height: 110vh;
 
-    background-color: $white-blue;
+    background-color: $darker-blue;
 
     display: flex;
     justify-content: center;
@@ -202,13 +202,13 @@ header {
         
 
         path {
-            stroke: $gray-4;
+            stroke: $white-light;
             transition: .7s ease;
         }
 
         &:hover {
             path {
-                stroke: $darker-blue;
+                stroke: $lighter-blue-2
             }
         }
     }
@@ -217,7 +217,7 @@ header {
 .nav-link-mobile {
     display: inline-block;
     @include typeface-Sora(h3, desktop);
-    color: $gray-2;
+    color: $white-light;
 
     padding: 16px 24px;
 
@@ -232,13 +232,13 @@ header {
         transition: 1s ease;
 
         width: 0;
-        height: 3px;
+        height: 2px;
 
-        background-color: $darker-blue;
+        background-color: $lighter-blue-2;
     }
 
     &:hover {
-        color: $darker-blue;
+        color: $lighter-blue-2;
 
         &::after {
             width: 100%;
