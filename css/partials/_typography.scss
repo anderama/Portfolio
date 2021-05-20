@@ -1,0 +1,182 @@
+// Project Typography
+
+@mixin typeface-Sora($size, $device: desktop) {
+    font-family: 'Sora', sans-serif;
+
+    //H1
+    @if $size == h1 and $device == desktop {
+        font-size: 6.4rem;
+        line-height: 100%;
+    } @else if $size == h1 and $device == mobile {
+        font-size: 3.6rem;
+        line-height: 120%;
+    }
+
+    //H2
+    @else if $size == h2 and $device == desktop {
+        font-size: 5.2rem;
+        line-height: 100%;
+    } @else if $size == h2 and $device == mobile {
+        font-size: 3.6rem;
+        line-height: 120%;
+    }
+
+    //H3
+    @else if $size == h3 and $device == desktop {
+        font-size: 3.6rem;
+        line-height: 120%;
+    } @else if $size == h3 and $device == mobile {
+        font-size: 2.4rem;
+        line-height: 120%;
+    }
+
+    //H4
+    @else if $size == h4 and $device == desktop {
+        font-size: 2.4rem;
+        line-height: 130%;
+    } @else if $size == h4 and $device == mobile {
+        font-size: 1.8rem;
+        line-height: 130%;
+    }
+
+    //H5
+    @else if $size == h5 and $device == desktop {
+        font-size: 1.8rem;
+        line-height: 140%;
+    } @else if $size == h5 and $device == mobile {
+        font-size: 1.6rem;
+        line-height: 150%;
+    }
+}
+
+@mixin typeface-SourceSansPro($size: p2, $device: desktop) {
+    font-family: 'Source Sans Pro', sans-serif;
+
+    //P1
+    @if $size == p1 and $device == desktop {
+        font-size: 2.4rem;
+        line-height: 130%;
+    } @else if $size == p1 and $device == mobile {
+        font-size: 1.8rem;
+        line-height: 130%;
+    }
+
+    //P2
+    @else if $size == p2 and $device == desktop {
+        font-size: 1.6rem;
+        line-height: 140%;
+    } @else if $size == p2 and $device == mobile {
+        font-size: 1.4rem;
+        line-height: 150%;
+    }
+
+    //P3
+    @else if $size == p3 and $device == desktop {
+        font-size: 1.4rem;
+        line-height: 150%;
+    } @else if $size == p3 and $device == mobile {
+        font-size: 1.4rem;
+        line-height: 150%;
+    }
+
+    // Strong
+    @else if $size == strong and $device == desktop {
+        font-size: 1.6rem;
+        line-height: 140%;
+    } @else if $size == strong and $device == mobile {
+        font-size: 1.4rem;
+        line-height: 150%;
+    }
+}
+
+strong {
+    color: $black;
+    @include typeface-SourceSansPro(strong, desktop);
+
+    @include responsive(s) {
+        @include typeface-SourceSansPro(strong, mobile);
+    }
+}
+
+h1 {
+    text-transform: uppercase;
+    background: $lighter-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    @include typeface-Sora(h1, desktop);
+
+    @include responsive(s) {
+        @include typeface-Sora(h1, mobile);
+    }
+}
+
+h2 {
+    color: $black-dark;
+    @include typeface-Sora(h2, desktop);
+
+    @include responsive(s) {
+        @include typeface-Sora(h2, mobile);
+    }
+}
+
+h3 {
+    color: $black-dark;
+    @include typeface-Sora(h3, desktop);
+
+    @include responsive(s) {
+        @include typeface-Sora(h3, mobile);
+    }
+}
+
+h4 {
+    color: $black-dark;
+    @include typeface-Sora(h4, desktop);
+
+    @include responsive(s) {
+        @include typeface-Sora(h4, mobile);
+    }
+}
+
+h5 {
+    text-transform: uppercase;
+    background: $lighter-gradient;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+    @include typeface-Sora(h5, desktop);
+
+    @include responsive(s) {
+        @include typeface-Sora(h5, mobile);
+    }
+}
+
+p {
+    color: $gray-3;
+
+    @include typeface-SourceSansPro(p2, desktop);
+
+    @include responsive(s) {
+        @include typeface-SourceSansPro(p2, mobile);
+    }
+}
+
+.bold {
+    font-weight: bold;
+    color: $black-light;
+}
+
+.strong {
+    color: $black-dark;
+    @include typeface-SourceSansPro(p2, desktop);
+    @include responsive(s) {
+        @include typeface-SourceSansPro(p2, mobile);
+    }
+}
+
+.text-center {
+    text-align: center;
+}
