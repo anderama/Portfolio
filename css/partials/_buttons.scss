@@ -23,3 +23,27 @@ a {
         0px 2.80786px 6.88378px rgba(95, 184, 252, 0.1);
     }
 }
+
+.button {
+    display: inline-block;
+
+    &:hover {
+        transform: scale(1.05);
+        filter: drop-shadow(0px 16px 16px rgba(95,184,252,0.4));
+    }
+}
+
+.btn-1 {
+    width: 160px;
+    margin-left: 16px;
+    padding-right: 16px;
+    @include responsive(s){
+        padding-right: 8px;
+        margin: 0;
+    }
+}
+
+.btn-2 {
+    width: 160px;
+    padding-left: 16px;
+}

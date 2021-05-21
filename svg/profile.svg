@@ -1,10 +1,12 @@
-<svg width="280" height="280" viewBox="0 0 280 280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g id="profile">
-<g id="Group 147">
+<svg width="220" height="220" viewBox="0 0 264 264" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="Group 178">
+<g id="Group 177">
+<g id="Group 146">
 <g id="Group 140">
-<circle id="Ellipse 17" cx="140" cy="140" r="116" fill="white" stroke="url(#paint0_linear)" stroke-width="12"/>
-<circle id="Ellipse 18" cx="140" cy="140" r="96.25" fill="url(#paint1_linear)"/>
-<rect id="Design_sem_nome__1_-removebg-preview (2) 1" x="58.4165" y="52.9165" width="152.167" height="183.333" fill="url(#pattern0)"/>
+<circle id="Ellipse 17" cx="132" cy="132" r="126" fill="white" stroke="url(#paint0_linear)" stroke-width="12"/>
+<circle id="Ellipse 18" cx="132" cy="132" r="105" fill="url(#paint1_linear)"/>
+<rect id="Design_sem_nome__1_-removebg-preview (2) 1" x="42.9998" y="36.9998" width="166" height="200" fill="url(#pattern0)"/>
+</g>
 </g>
 </g>
 </g>
@@ -12,11 +14,11 @@
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0" transform="translate(-0.10241) scale(0.00240964 0.002)"/>
 </pattern>
-<linearGradient id="paint0_linear" x1="250" y1="151.98" x2="30" y2="151.98" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear" x1="252" y1="145.069" x2="12" y2="145.069" gradientUnits="userSpaceOnUse">
 <stop stop-color="#538BF0"/>
 <stop offset="1" stop-color="#2DC7ED"/>
 </linearGradient>
-<linearGradient id="paint1_linear" x1="140" y1="43.75" x2="140.934" y2="226.72" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint1_linear" x1="132" y1="27" x2="133.019" y2="226.604" gradientUnits="userSpaceOnUse">
 <stop stop-color="#538BF0"/>
 <stop offset="1" stop-color="#2DC7ED"/>
 </linearGradient>
