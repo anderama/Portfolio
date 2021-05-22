@@ -41,7 +41,7 @@ header {
 }
 
 .logo {
-    width: 72px;
+    width: 90px;
     height: 72px;
 
     z-index: 800;
@@ -49,6 +49,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include responsive(s){
+        width: 80px;
+    }
 }
 
 .navbar-desktop-item-1 {

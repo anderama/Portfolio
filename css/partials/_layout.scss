@@ -302,3 +302,14 @@ $container-s: 540px;
         }
     }
 }
+
+// Skills
+
+.skill-cards {
+    @include responsive(s){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
