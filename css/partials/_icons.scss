@@ -1,0 +1,40 @@
+.bg-icon-code {
+    filter: drop-shadow(0px 16px 16px rgba(95,184,252,0.4));
+    @include responsive(xs){
+        width: 64px;
+        height: 64px;
+        margin-left: 72px !important;
+    }
+}
+.bg-icon-box {
+    filter: drop-shadow(0px 16px 16px rgba(95,184,252,0.4));
+    @include responsive(xs){
+        width: 64px;
+        height: 64px;
+        margin-left: 72px !important;
+    }
+}
+.bg-icon-coffee {
+    filter: drop-shadow(0px 16px 16px rgba(95,184,252,0.4));
+    @include responsive(xs){
+        width: 64px;
+        height: 64px;
+        margin-left: 72px !important;
+    }
+}
+.bg-icon-book {
+    filter: drop-shadow(0px 16px 16px rgba(95,184,252,0.4));
+    @include responsive(xs){
+        width: 64px;
+        height: 64px;
+        margin-left: 72px !important;
+    }
+}
+.bg-icon-bolt {
+    filter: drop-shadow(0px 16px 16px rgba(95,184,252,0.4));
+    @include responsive(xs){
+        width: 64px;
+        height: 64px;
+        margin-left: 72px !important;
+    }
+}

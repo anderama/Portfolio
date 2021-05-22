@@ -34,15 +34,19 @@ a {
 }
 
 .btn-1 {
-    width: 160px;
     margin-left: 16px;
     padding-right: 16px;
     @include responsive(s){
+        width: 160px;
         padding-right: 8px;
         margin: 0;
     }
 }
 
 .btn-2 {
-    width: 160px;
+    margin-left: 16px;
+    @include responsive(s){
+        margin: 0;
+        width: 160px;
+    }
 }

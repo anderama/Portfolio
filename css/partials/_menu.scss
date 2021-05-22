@@ -9,6 +9,14 @@ header {
 }
 
 .active-header {
+    a {
+        color: $medium-blue;
+    }
+    
+    .btn {
+        color: $white-light;
+    }
+
     background-color: $white-blue;
     box-shadow: 0px 62px 152px rgba(95, 184, 252, 0.19), 
     0px 18.6912px 45.8236px rgba(95, 184, 252, 0.123802), 

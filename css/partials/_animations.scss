@@ -1,0 +1,95 @@
+.profile-photo {
+    animation: floating 1s ease infinite alternate;
+}
+
+.bg-icon-code {
+    animation: floating-2 1s ease infinite alternate;
+}
+
+.bg-icon-box {
+    animation: floating-2 1s ease infinite alternate;
+}
+
+.bg-icon-coffee {
+    animation: floating-2 1s ease infinite alternate;
+}
+
+.bg-icon-book {
+    animation: floating-2 1s ease infinite alternate;
+}
+
+.bg-icon-bolt {
+    animation: floating-2 1s ease infinite alternate;
+}
+
+.bolinha-azul-1 {
+    animation: bolinha-azul 1s ease infinite alternate;
+}
+
+.bolinha-azul-2 {
+    animation: bolinha-azul 1.3s ease infinite alternate;
+}
+
+.bolinha-azul-3 {
+    animation: bolinha-azul 1.6s ease infinite alternate;
+}
+
+.bolinha-preta-1 {
+    animation: bolinha-preta 1s ease infinite alternate;
+}
+
+.bolinha-preta-2 {
+    animation: bolinha-preta 1.2s ease infinite alternate;
+}
+
+.bolinha-preta-3 {
+    animation: bolinha-preta 1.4s ease infinite alternate;
+}
+
+.bolinha-preta-4 {
+    animation: bolinha-preta 1.2s ease infinite alternate;
+}
+
+.bolinha-preta-5 {
+    animation: bolinha-preta 1s ease infinite alternate;
+}
+
+.bolinha-preta-6 {
+    animation: bolinha-preta 1.2s ease infinite alternate;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, -10px, 0);
+    }
+}
+
+@keyframes floating-2 {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, -8px, 0);
+    }
+}
+
+@keyframes bolinha-azul {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, -30px, 0);
+    }
+}
+
+@keyframes bolinha-preta {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(0, -50px, 0);
+    }
+}

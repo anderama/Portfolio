@@ -173,7 +173,7 @@ $container-s: 540px;
 
     @include responsive(s){
         padding: 0 !important;
-        margin-top: 56px !important;
+        margin-top: 64px !important;
     }
 }
 
@@ -258,6 +258,47 @@ $container-s: 540px;
             width: 10%;
             top: 110%;
             left: 90%;
+        }
+    }
+}
+
+// Sobre mim
+
+.list-item {
+    list-style: none;
+    position: relative;
+    padding: 8px 8px 8px 72px;
+    margin-bottom: 48px;
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -8px;
+
+        display: block;
+
+        width: 64px;
+        height: 64px;
+        border-radius: 10px;
+    }
+}
+
+.about-me {
+    @include responsive(s){
+        margin: 0 36px;
+    }
+}
+
+.figboy-1 {
+    @include responsive(s){
+        margin: 0 !important;
+    }
+}
+
+.figboy-2 {
+    @include responsive(s){
+        svg {
+            height: 500px;
         }
     }
 }
