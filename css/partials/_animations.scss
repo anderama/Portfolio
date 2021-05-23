@@ -58,6 +58,58 @@
     animation: bolinha-preta 1.2s ease infinite alternate;
 }
 
+.quadrinho {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-2 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-3 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-4 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-5 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-6 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-7 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-8 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-9 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-10 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-11 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-12 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
+.quadrinho-13 {
+    animation: quadrinho 1.6s ease infinite alternate;
+}
+
 @keyframes floating {
     0% {
         transform: translate3d(0, 0, 0);
@@ -91,5 +143,14 @@
     }
     100% {
         transform: translate3d(0, -50px, 0);
+    }
+}
+
+@keyframes quadrinho {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-10px, 30px, 0);
     }
 }
