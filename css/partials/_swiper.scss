@@ -3,6 +3,10 @@
     margin: 0 auto;
 
     padding: 0px 24px;
+
+    @include responsive(s){
+        margin: 0 24px 16px;
+    }
 }
 
 .container-swiper {

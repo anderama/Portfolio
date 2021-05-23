@@ -313,3 +313,26 @@ $container-s: 540px;
         flex-direction: column;
     }
 }
+
+// Contato
+
+.contact {
+    @include responsive(s){
+        margin: 0 36px;
+    }
+}
+
+// Footer
+footer {
+    display: block;
+    background: $darker-blue;
+}
+
+.p-footer {
+    color: $white-light;
+    font-size: 2rem;
+
+    @include responsive(s){
+        font-size: 1.4rem;
+    }
+}

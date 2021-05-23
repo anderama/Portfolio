@@ -325,6 +325,28 @@
   }
 }
 
+@media screen and (max-width: 960px) {
+  .contact {
+    margin: 0 36px;
+  }
+}
+
+footer {
+  display: block;
+  background: #0C2759;
+}
+
+.p-footer {
+  color: #FEFBFF;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .p-footer {
+    font-size: 1.4rem;
+  }
+}
+
 strong {
   color: #232224;
   font-family: 'Source Sans Pro', sans-serif;
@@ -834,6 +856,7 @@ a:hover {
 html {
   scroll-behavior: smooth;
   font-size: 62.5%;
+  height: 100%;
 }
 
 body {
@@ -1154,6 +1177,12 @@ header {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0px 24px;
+}
+
+@media screen and (max-width: 960px) {
+  .box {
+    margin: 0 24px 16px;
+  }
 }
 
 .container-swiper {
@@ -1528,6 +1557,13 @@ header {
   margin-left: 8px;
 }
 
+@media screen and (max-width: 960px) {
+  .bg-icon-instagram p {
+    font-size: 2rem;
+    margin-top: 16px;
+  }
+}
+
 .bg-icon-instagram::after {
   background-image: url("../svg/Instagram.svg");
   background-size: cover;
@@ -1551,6 +1587,13 @@ header {
   font-size: 3.2rem;
   color: #0C2759;
   margin-left: 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .bg-icon-linkedin p {
+    font-size: 2rem;
+    margin-top: 16px;
+  }
 }
 
 .bg-icon-linkedin::after {
@@ -1578,6 +1621,13 @@ header {
   margin-left: 8px;
 }
 
+@media screen and (max-width: 960px) {
+  .bg-icon-github p {
+    font-size: 2rem;
+    margin-top: 16px;
+  }
+}
+
 .bg-icon-github::after {
   background-image: url("../svg/Github.svg");
   background-size: cover;
@@ -1601,6 +1651,13 @@ header {
   font-size: 3.2rem;
   color: #0C2759;
   margin-left: 8px;
+}
+
+@media screen and (max-width: 960px) {
+  .bg-icon-whatsapp p {
+    font-size: 2rem;
+    margin-top: 16px;
+  }
 }
 
 .bg-icon-whatsapp::after {

@@ -209,6 +209,11 @@
         font-size: 3.2rem;
         color: $darker-blue;
         margin-left: 8px;
+
+        @include responsive(s) {
+            font-size: 2rem;
+            margin-top: 16px;
+        }
     }
 
     &::after {
@@ -231,6 +236,11 @@
         font-size: 3.2rem;
         color: $darker-blue;
         margin-left: 8px;
+
+        @include responsive(s) {
+            font-size: 2rem;
+            margin-top: 16px;
+        }
     }
 
     &::after {
@@ -253,6 +263,11 @@
         font-size: 3.2rem;
         color: $darker-blue;
         margin-left: 8px;
+
+        @include responsive(s) {
+            font-size: 2rem;
+            margin-top: 16px;
+        }
     }
 
     &::after {
@@ -275,6 +290,11 @@
         font-size: 3.2rem;
         color: $darker-blue;
         margin-left: 8px;
+
+        @include responsive(s) {
+            font-size: 2rem;
+            margin-top: 16px;
+        }
     }
 
     &::after {
