@@ -1408,7 +1408,7 @@ header {
   .ingles {
     width: 102.45px;
     height: 130.91px;
-    margin-bottom: 32p32;
+    margin-bottom: 32px;
   }
 }
 
@@ -1428,7 +1428,7 @@ header {
   .figma {
     width: 125.22px;
     height: 160px;
-    margin-bottom: 32p32;
+    margin-bottom: 32px;
   }
 }
 
@@ -1448,7 +1448,7 @@ header {
   .react {
     width: 140px;
     height: 160px;
-    margin-bottom: 32p32;
+    margin-bottom: 32px;
   }
 }
 
@@ -1468,7 +1468,7 @@ header {
   .angular {
     width: 125.22px;
     height: 160px;
-    margin-bottom: 32p32;
+    margin-bottom: 32px;
   }
 }
 
@@ -1488,7 +1488,7 @@ header {
   .node {
     width: 125.22px;
     height: 160px;
-    margin-bottom: 32p32;
+    margin-bottom: 32px;
   }
 }
 
@@ -1508,13 +1508,113 @@ header {
   .bootstrap {
     width: 125.22px;
     height: 160px;
-    margin-bottom: 32p32;
+    margin-bottom: 32px;
   }
 }
 
 .bootstrap:hover {
   -webkit-transform: translateY(-8px);
           transform: translateY(-8px);
+}
+
+.bg-icon-instagram {
+  -webkit-filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+          filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+}
+
+.bg-icon-instagram p {
+  font-size: 3.2rem;
+  color: #0C2759;
+  margin-left: 8px;
+}
+
+.bg-icon-instagram::after {
+  background-image: url("../svg/Instagram.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .bg-icon-instagram::after {
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+  }
+}
+
+.bg-icon-linkedin {
+  -webkit-filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+          filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+}
+
+.bg-icon-linkedin p {
+  font-size: 3.2rem;
+  color: #0C2759;
+  margin-left: 8px;
+}
+
+.bg-icon-linkedin::after {
+  background-image: url("../svg/Linkedin.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .bg-icon-linkedin::after {
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+  }
+}
+
+.bg-icon-github {
+  -webkit-filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+          filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+}
+
+.bg-icon-github p {
+  font-size: 3.2rem;
+  color: #0C2759;
+  margin-left: 8px;
+}
+
+.bg-icon-github::after {
+  background-image: url("../svg/Github.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .bg-icon-github::after {
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+  }
+}
+
+.bg-icon-whatsapp {
+  -webkit-filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+          filter: drop-shadow(0px 16px 16px rgba(95, 184, 252, 0.4));
+}
+
+.bg-icon-whatsapp p {
+  font-size: 3.2rem;
+  color: #0C2759;
+  margin-left: 8px;
+}
+
+.bg-icon-whatsapp::after {
+  background-image: url("../svg/Whatsapp.svg");
+  background-size: cover;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+  .bg-icon-whatsapp::after {
+    width: 48px;
+    height: 48px;
+    margin-top: 16px;
+  }
 }
 
 .profile-photo {
@@ -1657,6 +1757,21 @@ header {
           animation: quadrinho 1.6s ease infinite alternate;
 }
 
+.circle-insta-1 {
+  -webkit-animation: circles 1.7s ease infinite alternate;
+          animation: circles 1.7s ease infinite alternate;
+}
+
+.circle-twitter-2 {
+  -webkit-animation: circles 1.4s ease infinite alternate;
+          animation: circles 1.4s ease infinite alternate;
+}
+
+.circle-linkedin-3 {
+  -webkit-animation: circles 2s ease infinite alternate;
+          animation: circles 2s ease infinite alternate;
+}
+
 @-webkit-keyframes floating {
   0% {
     -webkit-transform: translate3d(0, 0, 0);
@@ -1764,6 +1879,28 @@ header {
   100% {
     -webkit-transform: translate3d(-10px, 30px, 0);
             transform: translate3d(-10px, 30px, 0);
+  }
+}
+
+@-webkit-keyframes circles {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-10px, 50px, 0);
+            transform: translate3d(-10px, 50px, 0);
+  }
+}
+
+@keyframes circles {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-10px, 50px, 0);
+            transform: translate3d(-10px, 50px, 0);
   }
 }
 /*# sourceMappingURL=style.css.map */

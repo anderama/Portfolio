@@ -110,6 +110,18 @@
     animation: quadrinho 1.6s ease infinite alternate;
 }
 
+.circle-insta-1 {
+    animation: circles 1.7s ease infinite alternate;
+}
+
+.circle-twitter-2 {
+    animation: circles 1.4s ease infinite alternate;
+}
+
+.circle-linkedin-3 {
+    animation: circles 2s ease infinite alternate;
+}
+
 @keyframes floating {
     0% {
         transform: translate3d(0, 0, 0);
@@ -152,5 +164,14 @@
     }
     100% {
         transform: translate3d(-10px, 30px, 0);
+    }
+}
+
+@keyframes circles {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-10px, 50px, 0);
     }
 }
