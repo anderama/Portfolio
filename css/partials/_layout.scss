@@ -178,6 +178,10 @@ $container-s: 540px;
 }
 
 .introduction {
+    @include responsive(l){
+        margin-left: 48px;
+    }
+
     @include responsive(s){
         h2 {
             margin: 0;
@@ -200,11 +204,18 @@ $container-s: 540px;
 
 .intro {
     color: $darker-blue;
+
+    @include responsive(l) {
+        font-size: 4.2rem;
+    }
+
+    @include responsive(m) {
+        font-size: 4.2rem;
+    }
 }
 
 .UI-phrase {
     color: $gray-4;
-    margin-left: 24px;
 
     @include responsive(s){
         margin: 0 !important;
@@ -246,9 +257,9 @@ $container-s: 540px;
         position: absolute;
 
         top: 130%;
-        left: 80%;
+        left: 73%;
 
-        width: 15%;
+        width: 10%;
         height: 6px;
 
         background: $lighter-gradient;
@@ -286,6 +297,10 @@ $container-s: 540px;
 .about-me {
     @include responsive(s){
         margin: 0 36px;
+    }
+
+    @include responsive(l) {
+        margin: 0 48px;
     }
 }
 
@@ -326,6 +341,10 @@ $container-s: 540px;
 footer {
     display: block;
     background: $darker-blue;
+}
+
+.footer {
+    padding: 32px 32px;
 }
 
 .p-footer {
