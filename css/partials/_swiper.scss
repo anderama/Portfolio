@@ -32,7 +32,7 @@
 .swiper-slide {
     max-width: 420px;
     padding: 36px 36px;
-    margin: 0px 16px;
+    margin: 0 16px;
     border-radius: 50px;
 
     background-color: $white-blue-2;
@@ -49,6 +49,11 @@
 
     a {
         opacity: unset;
+    }
+
+    @include responsive(s) {
+        margin: 0;
+        padding: 36px 24px;
     }
 }
 

@@ -1237,7 +1237,7 @@ header {
 .swiper-slide {
   max-width: 420px;
   padding: 36px 36px;
-  margin: 0px 16px;
+  margin: 0 16px;
   border-radius: 50px;
   background-color: #E0ECFF;
   display: -webkit-box;
@@ -1262,6 +1262,13 @@ header {
 
 .swiper-slide a {
   opacity: unset;
+}
+
+@media screen and (max-width: 960px) {
+  .swiper-slide {
+    margin: 0;
+    padding: 36px 24px;
+  }
 }
 
 .button-next {
