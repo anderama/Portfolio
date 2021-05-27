@@ -22,3 +22,16 @@ const showMenu = (toggleId, navId) =>{
 }
 
 showMenu('bx', 'menu-mobile');
+
+// Remove o menu mobile
+const navLink = document.querySelectorAll('.nav-link-mobile');
+
+function linkAction(){
+    const navMenu = document.getElementById('menu-mobile');
+    const burguer = document.getElementById('bx');
+    
+    navMenu.classList.remove('active-menu-mobile');
+    burguer.classList.remove('active-bx');
+}
+
+navLink.forEach(n => n.addEventListener('click', linkAction));
